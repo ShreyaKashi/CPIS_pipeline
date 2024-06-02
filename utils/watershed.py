@@ -16,7 +16,6 @@ This code performs segmentation of 256x256 images followed by watershed
 based separation of objects. Object properties will also be calculated.
 
 """
-from keras.utils import normalize
 import os
 import cv2
 from PIL import Image
